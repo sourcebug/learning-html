@@ -23,14 +23,10 @@
 
 <body>
 
-    <div id="circle"></div>
+    <h1>Asynchronous Javascript And XML</h1>
 
     <script>
 
-        $.get("test.html", function(data) {
-            alert(data);
-        });
-        
         $.ajax({
             url:"test.html"
         }).done(function(data){
